@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Devanny ❤️ Baptiste</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mp3">
+</audio>
+
+<div class="container" id="questionBox">
+    <h1>Do you want to be my valentine? 💘</h1>
+    <button onclick="sayYes()">YES 💖</button>
+    <button id="noBtn" onmouseover="moveButton()" onclick="sayNo()">NO 💔</button>
+    <p id="tryAgain"></p>
+</div>
+
+<div class="slider hidden" id="slider">
+    <div class="slide active">
+        <img src="images/1.jpg">
+        <p>Devanny ❤️ Baptiste<br>
+        Even if we're miles apart, my heart says “Je t’aime pour toujours.”</p>
+    </div>
+
+    <div class="slide">
+        <img src="images/2.jpg">
+        <p>Distance means nothing when someone means everything.<br>
+        Tu es mon âme sœur.</p>
+    </div>
+
+    <div class="slide">
+        <img src="images/3.jpg">
+        <p>I miss you every day, mon amour.<br>
+        One day, no more distance — seulement nous deux.</p>
+    </div>
+
+    <div class="slide">
+        <img src="images/4.jpg">
+        <p>Across countries, across oceans,<br>
+        my love for you grows stronger chaque jour.</p>
+    </div>
+
+    <div class="slide">
+        <img src="images/5.jpg">
+        <p>My heart chose you.<br>
+        Pour toujours et à jamais, Baptiste LIOI.</p>
+    </div>
+
+    <div class="slide">
+        <img src="images/6.jpg">
+        <p>No matter the timezone,<br>
+        you are my always & forever, mon bébé.</p>
+    </div>
+
+    <div class="slide">
+        <video controls>
+            <source src="video/love.mp4" type="video/mp4">
+        </video>
+        <p>Happy Valentine Day my baba bear 🐻💘<br>
+        I love you endlessly.</p>
+    </div>
+
+    <div class="navigation">
+        <button onclick="prevSlide()">⬅</button>
+        <button onclick="nextSlide()">➡</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
